@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import PostList from '../components/PostList';
 import TopicSearch from '../components/TopicSearch';
-import Header from '../components/Header';
+import Results from '../components/Results';
 import './RedditContainer.css'
 
 
@@ -29,7 +29,7 @@ const RedditContainer = () => {
     return (
         <section className='main-container'>
         <TopicSearch onTopicSelected={onTopicSelected}/>
-        <Header topicName={topicName} />
+        <Results topicName={topicName} />
         <PostList posts={posts} />
         </section>
     );

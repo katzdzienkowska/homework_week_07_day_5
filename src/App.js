@@ -5,7 +5,7 @@ import './App.css'
 function App() {
   return (
     <section className='app'>
-      <h1>Search Reddit</h1>
+      <h1>Search Reddit Topics</h1>
       <RedditContainer />
     </section>
   );
